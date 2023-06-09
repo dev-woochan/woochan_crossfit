@@ -1,0 +1,21 @@
+h1 {
+  text-align: center;
+}
+
+body {
+  background-color: #978b8b;
+}
+
+img {
+  width: 300px;
+  margin-left: 30px;
+  float: right;
+}
+
+a {
+  cursor: pointer;
+}
+.title_crossfit {
+  background-color: white;
+  padding-top: 4px;
+}
