@@ -1,21 +1,51 @@
-h1 {
-  text-align: center;
-}
-
 body {
   background-color: #978b8b;
 }
 
 img {
-  width: 300px;
+  width: 200px;
   margin-left: 30px;
   float: right;
 }
 
 a {
   cursor: pointer;
+  text-decoration: none;
+  color: black;
+  font-weight: 800;
 }
+
 .title_crossfit {
   background-color: white;
-  padding-top: 4px;
+  border-radius: 5px;
+  border: solid 3px black;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 900;
+  padding: 25px;
+  margin: 12px;
+}
+.title_crossfit a {
+  text-decoration: none;
+  color: black;
+}
+
+.workout {
+  border: 2px black;
+  padding: 20px;
+  padding-left: 0px;
+}
+li {
+  list-style: none;
+}
+
+.wrap {
+  background-color: gray;
+  border-radius: 5px;
+  border: 3px solid black;
+  margin: 6px;
+  padding: 50px;
+  margin-left: 9px;
+  margin-right: 9px;
+  padding-left: 0px;
 }
