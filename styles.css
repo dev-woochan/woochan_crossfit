@@ -1,51 +1,103 @@
 body {
-  background-color: #978b8b;
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+  background-color: #f9faf8;
 }
 
-img {
-  width: 200px;
-  margin-left: 30px;
-  float: right;
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #1f2937;
+  color: #f9faf8;
+  align-items: center;
+  padding-right: 5px;
+  padding-left: 30px;
+  flex: 1;
+}
+
+ol {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  font-size: 13px;
 }
 
 a {
-  cursor: pointer;
-  text-decoration: none;
-  color: black;
-  font-weight: 800;
+  text-decoration-line: none;
+  color: #f9faf8;
 }
 
-.title_crossfit {
-  background-color: white;
-  border-radius: 5px;
-  border: solid 3px black;
-  text-align: center;
-  font-size: 30px;
+.subtitle {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.container {
+  display: flex;
+  background-color: #1f2937;
+  color: #f9faf8;
+  padding: 30px;
+  justify-content: space-between;
+  flex: 1;
+}
+.img {
+  flex: 1;
+}
+
+.subtitle .fun {
   font-weight: 900;
-  padding: 25px;
-  margin: 12px;
-}
-.title_crossfit a {
-  text-decoration: none;
-  color: black;
+  font-size: 48px;
 }
 
-.workout {
-  border: 2px black;
-  padding: 20px;
-  padding-left: 0px;
-}
-li {
-  list-style: none;
-}
-
-.wrap {
-  background-color: gray;
+button {
+  width: 70px;
+  padding: 5px;
+  background-color: #3882f6;
   border-radius: 5px;
-  border: 3px solid black;
-  margin: 6px;
-  padding: 50px;
-  margin-left: 9px;
-  margin-right: 9px;
-  padding-left: 0px;
+  color: #f9faf8;
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.main_content {
+  background-color: #f9faf8;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+}
+
+.main_content .informaition {
+  display: flex;
+  justify-content: space-around;
+}
+
+.box {
+  border: #3882f6 solid 3px;
+  width: 90px;
+  height: 90px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.second_content {
+  background-color: #e5e7eb;
+  flex: 1;
+  font-size: 30px;
+}
+
+.third_content {
+  flex: 1;
+  font-size: 30px;
+  background-color: #3882f6;
+}
+
+.footer {
+  flex: 1;
+  background-color: #1f2937;
+  display: flex;
+  justify-content: space-between;
+  color: #e5e7eb;
+  font-size: 12px;
 }
